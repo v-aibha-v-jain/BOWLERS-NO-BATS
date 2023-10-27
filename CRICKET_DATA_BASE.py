@@ -5,8 +5,8 @@
 
 import pandas as pd
 
-
-df = pd.read_csv("/home/vaibhav/Desktop/waste/Bowling.csv")
+# add the path of the file from your directory or from g drive(if your using an notebook)
+df = pd.read_csv("/FULLPATH/Bowling.csv")
 
 df.drop_duplicates()
 
